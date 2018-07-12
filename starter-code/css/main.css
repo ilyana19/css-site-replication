@@ -42,8 +42,14 @@ header {
 }
 
 .button {
-  background-color: #4CAF50;
+  background: #6f92b0;
+  background-image: -webkit-linear-gradient(top, #6f92b0, #467198);
+  background-image: -moz-linear-gradient(top, #6f92b0, #467198);
+  background-image: -ms-linear-gradient(top, #6f92b0, #467198);
+  background-image: -o-linear-gradient(top, #6f92b0, #467198);
+  background-image: linear-gradient(to bottom, #6f92b0, #467198);
   border: none;
+  border-radius: 4px;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -53,6 +59,16 @@ header {
   height: 50px;
   margin: 0 10px;
   place-self: center right;
+}
+
+.button:hover {
+  background: #7ca3c2;
+  background-image: -webkit-linear-gradient(top, #7ca3c2, #5182ad);
+  background-image: -moz-linear-gradient(top, #7ca3c2, #5182ad);
+  background-image: -ms-linear-gradient(top, #7ca3c2, #5182ad);
+  background-image: -o-linear-gradient(top, #7ca3c2, #5182ad);
+  background-image: linear-gradient(to bottom, #7ca3c2, #5182ad);
+  text-decoration: none;
 }
 
 .button img, .button p {
